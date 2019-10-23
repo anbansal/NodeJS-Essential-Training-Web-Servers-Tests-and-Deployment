@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Questionaure</title>
+    <style>        
+        label,
+        button {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Please answer the following questions</h1>
+    <form method="POST" action="/">
+        <label>Your Name</label>
+        <input type="text" name="name" required />
+        <label>How are you?</label>
+        <input type="text" name="q2" />
+        <label>What did you do today?</label>
+        <input type="text" name="q3" />
+        <label>What is your favourite color?</label>
+        <input type="text" name="q4" />
+        <label>What is your hobby?</label>
+        <input type="text" name="q5" />
+        <label>Where are you coming from?</label>
+        <input type="text" name="q6" />
+        <label>Where are you going?</label>
+        <input type="text" name="q7" />
+        <label>What is your background?</label>
+        <input type="text" name="q8" />
+        <label>Your email</label>
+        <input type="email" name="email" required />
+        <label>Your Phone No.</label>
+        <input type="number" name="phoneNo" required />
+        <label>Your message</label>
+        <textarea name="message" rows="5" required></textarea>
+        <button>Submit</button>
+    </form>
+</body>
+
+</html>
